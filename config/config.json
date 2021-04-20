@@ -1,0 +1,13 @@
+{
+    "development": {
+        "PORT": 8081,
+        "MONGODB_URI": "mongodb+srv://Dennis0523:password19970523@nicola.twuc6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "JWT_SECRET": "SECRET#123",
+        "JWT_EXP": "10m"
+    },
+    "production": {
+        "MONGODB_URI": "mongodb+srv://Dennis0523:password19970523@nicola.twuc6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "JWT_SECRET": "SECRET#123",
+        "JWT_EXP": "20m"
+    }
+}
